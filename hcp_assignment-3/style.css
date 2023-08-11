@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background-color: #674bb1;
+}
+.section1 {
+    padding: 28px 36px;
+}
+.bg-light-grey {
+    background-color: #E3E8EC;
+}
+.bg-dark-grey {
+    background-color: #ADBDCA;
+}
+#card {
+    border-radius: 9px;
+    overflow: hidden;
+}
+#card > #card-header {
+    width: 100%;
+    height: 20px;
+    background-color: #0a2aba;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+#card > #card-header > .search {
+    float: left;
+    background-color: #DEE367;
+    width: 60px;
+    height: 8px;
+    margin-top: 6px;
+    border-radius: 5px;
+}
+#card > #card-header > .hamburger {
+    float: right;
+    width: 14px;
+    margin-top: 5px;
+}
+#card > #card-header > .hamburger > div {
+    background-color: #DEE367;
+    height: 2px;
+    margin-bottom: 2px;
+
+}
+#card > #card-header > .hamburger > div:last-child {
+    margin-bottom: 0;
+}
+#card > .card-body {
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+#card > .card-body > ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+#card > .card-body .card-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+#card > .card-body .card-row:last-child {
+    margin-bottom: 0;
+}
+#card > .card-body .card-row > .row-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#card > .card-body .card-row > .row-line-description {
+    width: 60%;
+    margin-left: 18px;
+}
+#card > .card-body .card-row > .row-line-description > .row-line {
+    background-color: #E1E6EA;
+    height: 2px;
+    margin-bottom: 4px;
+}
+#card > .card-body .card-row > .row-line-description > .row-line.line-hd {
+    width: 34px;
+    height: 6px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 6px;
+}
+#card > .card-body .card-row > .row-line-description > .row-line.line-l {
+    width: 100%;
+
+}
+#card > .card-body .card-row > .row-line-description > .row-line.line-m{
+    width: 90%;
+}
+#card > .card-body .card-row > .row-line-description > .row-line.line-sm {
+    width: 80%;
+}
+#card > .card-body .card-row > .row-people {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+    align-content: center;
+}
+#card > .card-body .card-row > .row-people > .circle {
+    background-color: #ADBDCA;
+    width: 8px;
+    height: 8px;
+    margin-right: 2px;
+}
+#card > .card-body .card-row > .row-people > .circle:last-child {
+    margin-right: 0;
+}
+.bg-orange {
+    background: transparent linear-gradient(180deg, #FEB078 0%, #FE74AA 100%) 0% 0% no-repeat padding-box;
+}
+.bg-blue {
+    background: transparent linear-gradient(180deg, #02BEFA 0%, #018CF7 100%) 0% 0% no-repeat padding-box;
+}
+.bg-pink {
+    background: transparent linear-gradient(180deg, #EC53D0 0%, #B44DF2 100%) 0% 0% no-repeat padding-box;
+}
+#graphic-container {
+    margin-top: 40px;
+}

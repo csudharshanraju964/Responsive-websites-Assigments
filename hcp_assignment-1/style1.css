@@ -1,0 +1,24 @@
+@media only screen and (min-width : 576) {
+    body {
+        text-align: left;
+    }
+    #bottom-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #bottom-container > div {
+        flex-basis: 50%;
+        box-sizing: border-box;
+    }
+    .padding-x {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    #full-access {
+        padding: 0;
+    }
+    #price > span {
+        display: inline;
+    }
+}
